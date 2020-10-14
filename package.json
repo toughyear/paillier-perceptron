@@ -1,0 +1,22 @@
+{
+  "name": "perceptron",
+  "version": "1.0.0",
+  "description": "a simple implementation of a perceptron in JS by scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "perceptron",
+    "javascript",
+    "machine",
+    "learning"
+  ],
+  "author": "Rajeev Singh Naruka",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.48",
+    "bigint-conversion": "^2.1.11",
+    "paillier-bigint": "^3.1.2"
+  }
+}
