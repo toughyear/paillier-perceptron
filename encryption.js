@@ -3,9 +3,7 @@ const paillierBigint = require("paillier-bigint");
 const bigintConversion = require("bigint-conversion");
 
 async function keyGen() {
-  const { publicKey, privateKey } = await paillierBigint.generateRandomKeys(
-    3072
-  );
+  const { publicKey, privateKey } = await paillierBigint.generateRandomKeys(10);
 
   console.log("key pairs have been generated.");
   console.log("public key of bitlength:" + publicKey.bitLength);
